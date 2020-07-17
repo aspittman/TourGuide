@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="attraction_historical">Historical</string>
+
+    <string name="attraction_outdoor">Outdoor</string>
+
+    <string name="attraction_event">Event</string>
+
+    <string name="attraction_sightseeing">Sightseeing</string>
+
+    <string name="attraction_downtown">Downtown</string>
+
+    <string name="attraction_image">List Item Picture</string>
+
+    <string name="tab_title_image">shows image for respective tab</string>
+</resources>
