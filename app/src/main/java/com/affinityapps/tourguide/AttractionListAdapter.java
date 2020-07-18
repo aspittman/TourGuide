@@ -21,11 +21,9 @@ import java.util.ArrayList;
 
 public class AttractionListAdapter extends ArrayAdapter<Attraction> {
 
- //   private int mColorResourceId;
 
     public AttractionListAdapter(Context context, ArrayList<Attraction> words) {
         super(context, 0, words);
-    //    mColorResourceId = colorResourceId;
     }
 
     @NonNull
@@ -38,13 +36,14 @@ public class AttractionListAdapter extends ArrayAdapter<Attraction> {
         }
 
         Attraction attraction = getItem(position);
-        ImageView attractionImage = (ImageView) listItemView.findViewById(R.id.guide_image);
-        TextView attractionDescription = (TextView) listItemView.findViewById(R.id.guide_text_view);
+        ImageView attractionImage = (ImageView) listItemView.findViewById(R.id.description_image);
+        TextView attractionSummary = (TextView) listItemView.findViewById(R.id.top_text_view);
+        TextView attractionDescription = (TextView) listItemView.findViewById(R.id.bottom_text_view);
 
         assert attraction != null;
         attractionImage.setImageResource(attraction.getGuideImage());
-
-        attractionDescription.setText(attraction.getGuideText());
+        attractionSummary.setText(attraction.getGuideText());
+        attractionDescription.setText(attraction.getGuideDescription());
 
         return listItemView;
     }

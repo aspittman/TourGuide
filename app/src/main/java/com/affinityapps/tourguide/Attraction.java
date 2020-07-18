@@ -4,20 +4,14 @@ public class Attraction {
 
     private int guideImage;
     private String guideText;
-    private String testString1;
-    private String testString2;
+    private String guideDescription;
 
-//    public Attraction(int guideImage, String guideText) {
-//        this.guideImage = guideImage;
-//        this.guideText = guideText;
-//    }
-
-
-    public Attraction(String guideText, String testString1, String testString2) {
+    public Attraction(int guideImage, String guideText, String guideDescription) {
+        this.guideImage = guideImage;
         this.guideText = guideText;
-        this.testString1 = testString1;
-        this.testString2 = testString2;
+        this.guideDescription = guideDescription;
     }
+
 
     public int getGuideImage() {
         return guideImage;
@@ -27,11 +21,5 @@ public class Attraction {
         return guideText;
     }
 
-    public String getTestString1() {
-        return testString1;
-    }
-
-    public String getTestString2() {
-        return testString2;
-    }
+    public String getGuideDescription() {return guideDescription; }
 }
