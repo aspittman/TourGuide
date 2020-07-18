@@ -29,22 +29,21 @@ public class AttractionListAdapter extends ArrayAdapter<Attraction> {
     @NonNull
     @Override
     public View getView(int position, View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.attraction_list_item, parent, false);
         }
 
         Attraction attraction = getItem(position);
-        ImageView attractionImage = (ImageView) listItemView.findViewById(R.id.description_image);
-        TextView attractionSummary = (TextView) listItemView.findViewById(R.id.top_text_view);
-        TextView attractionDescription = (TextView) listItemView.findViewById(R.id.bottom_text_view);
+        ImageView attractionImage = (ImageView) convertView.findViewById(R.id.description_image);
+        TextView attractionSummary = (TextView) convertView.findViewById(R.id.top_text_view);
+        TextView attractionDescription = (TextView) convertView.findViewById(R.id.bottom_text_view);
 
         assert attraction != null;
         attractionImage.setImageResource(attraction.getGuideImage());
         attractionSummary.setText(attraction.getGuideText());
         attractionDescription.setText(attraction.getGuideDescription());
 
-        return listItemView;
+        return convertView;
     }
 }

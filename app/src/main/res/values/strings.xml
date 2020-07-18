@@ -1,17 +1,83 @@
 <resources>
+<!--String for xml files-->
     <string name="app_name">Tour Guide</string>
-
     <string name="attraction_historical">Historical</string>
-
     <string name="attraction_outdoor">Outdoor</string>
-
     <string name="attraction_event">Event</string>
-
     <string name="attraction_sightseeing">Sightseeing</string>
-
     <string name="attraction_downtown">Downtown</string>
-
     <string name="attraction_image">List Item Picture</string>
-
     <string name="tab_title_image">shows image for respective tab</string>
+
+<!--Main Tab Strings-->
+    <string name="tab_downtown">City Creek Center</string>
+    <string name="tab_historical">Temple Square</string>
+    <string name="tab_event">Natural History Museum of Utah</string>
+    <string name="tab_sightseeing">University of Utah</string>
+    <string name="tab_outdoor">State Capitol</string>
+
+<!--Downtown List Strings-->
+    <string name="downtown_one">City Creek Fountain</string>
+    <string name="downtown_two">Mall Entrance</string>
+    <string name="downtown_three">Mall Stores</string>
+    <string name="downtown_four">Mall Overpass</string>
+    <string name="downtown_five">City Creek Tram</string>
+
+    <string name="downtown_six">Displays water and fire shows in shopping center</string>
+    <string name="downtown_seven">Plenty of food vendors around the mall</string>
+    <string name="downtown_eight">Plenty of stores in the mall to choose from</string>
+    <string name="downtown_nine">Mall contains bridge connection one end to the other</string>
+    <string name="downtown_ten">Tram under the bridge gives access to both entrances</string>
+
+<!--Historical List Strings-->
+    <string name="historical_one">Salt Lake Temple</string>
+    <string name="historical_two">JBs restaurant</string>
+    <string name="historical_three">Gateway</string>
+    <string name="historical_four">LDS tabernacle</string>
+    <string name="historical_five">Temple grounds</string>
+
+    <string name="historical_six">Historical landmark of the LDS church</string>
+    <string name="historical_seven">Buffet right around the corner</string>
+    <string name="historical_eight">Mall center with theaters and museums</string>
+    <string name="historical_nine">Where the chore for the LDS church sings</string>
+    <string name="historical_ten">Lots of museums and connections to various locations</string>
+
+<!--Event List Strings-->
+    <string name="event_one">Airboat Rides</string>
+    <string name="event_two">Science Cafe</string>
+    <string name="event_three">Archeology Exhibits</string>
+    <string name="event_four">Scientific Animation</string>
+    <string name="event_five">Trailside Bioblitz</string>
+
+    <string name="event_six">Airboat rides through surrounding lakes</string>
+    <string name="event_seven">Sit eat and talk science</string>
+    <string name="event_eight">Display of history and fossils around the museum</string>
+    <string name="event_nine">Animations showing the history of the displays</string>
+    <string name="event_ten">Hiking trails all around the museum</string>
+
+<!--Sightseeing List Strings-->
+    <string name="sightseeing_one">Campus grounds</string>
+    <string name="sightseeing_two">Huntsman Stadium</string>
+    <string name="sightseeing_three">Library</string>
+    <string name="sightseeing_four">Skiing</string>
+    <string name="sightseeing_five">Redline tram</string>
+
+    <string name="sightseeing_six">Fun place to longboard and sightsee</string>
+    <string name="sightseeing_seven">Where they have college sports games</string>
+    <string name="sightseeing_eight">Campus library where they have 3D printing lab</string>
+    <string name="sightseeing_nine">Ski resorts around campus for students and tourists</string>
+    <string name="sightseeing_ten">Tram which takes you all around campus</string>
+
+<!--Outdoor List Strings-->
+    <string name="outdoor_one">Golden Room</string>
+    <string name="outdoor_two">Marmalade District</string>
+    <string name="outdoor_three">House tours</string>
+    <string name="outdoor_four">House of Representatives</string>
+    <string name="outdoor_five">Trail toward the Capitol</string>
+
+    <string name="outdoor_six">Art gallery with exhibits</string>
+    <string name="outdoor_seven">located in same area with food and other historic sites</string>
+    <string name="outdoor_eight">Tours for students and tourists</string>
+    <string name="outdoor_nine">Get to see the room where the Utah representatives work</string>
+    <string name="outdoor_ten">Located right next to downtown</string>
 </resources>

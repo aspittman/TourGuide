@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager2 viewPager;
-    private String[] tabNames = {"City Creek Center", "Temple Square", "Natural History Museum of Utah", "University of Utah", "State Capitol"};
+    private int[] tabNames = {R.string.tab_downtown, R.string.tab_historical,
+            R.string.tab_event, R.string.tab_sightseeing, R.string.tab_outdoor};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -26,11 +26,11 @@ public class SightseeingFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Campus grounds", "Fun place to longboard and sightsee"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Huntsman Stadium", "Where they have college sports games"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Library", "Campus library where they have 3D printing lab"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Skiing", "Ski resorts around campus for students and tourists"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Redline tram", "Tram which takes you all around campus"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, R.string.sightseeing_one, R.string.sightseeing_six));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, R.string.sightseeing_two, R.string.sightseeing_seven));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, R.string.sightseeing_three, R.string.sightseeing_eight));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, R.string.sightseeing_four, R.string.sightseeing_nine));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, R.string.sightseeing_five, R.string.sightseeing_ten));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

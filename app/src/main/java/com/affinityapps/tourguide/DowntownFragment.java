@@ -26,11 +26,11 @@ public class DowntownFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.citycreek_fountain, "City Creek Fountain", "Displays water and fire shows in shopping center"));
-        arrayList.add(new Attraction(R.drawable.mall_entrance, "Mall Entrance", "Plenty of food vendors around the mall"));
-        arrayList.add(new Attraction(R.drawable.citycreek_shopping, "Mall Stores", "Plenty of stores in the mall to choose from"));
-        arrayList.add(new Attraction(R.drawable.citycreek_second_floor, "Mall Overpass", "Mall contains bridge connection one end to the other"));
-        arrayList.add(new Attraction(R.drawable.citycreek_tram, "City Creek Tram", "Tram under the bridge gives access to both entrances"));
+        arrayList.add(new Attraction(R.drawable.citycreek_fountain, R.string.downtown_one, R.string.downtown_six));
+        arrayList.add(new Attraction(R.drawable.mall_entrance, R.string.downtown_two, R.string.downtown_seven));
+        arrayList.add(new Attraction(R.drawable.citycreek_shopping, R.string.downtown_three, R.string.downtown_eight));
+        arrayList.add(new Attraction(R.drawable.citycreek_second_floor, R.string.downtown_four, R.string.downtown_nine));
+        arrayList.add(new Attraction(R.drawable.citycreek_tram, R.string.downtown_five, R.string.downtown_ten));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

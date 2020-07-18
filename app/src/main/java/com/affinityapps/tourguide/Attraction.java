@@ -3,10 +3,10 @@ package com.affinityapps.tourguide;
 public class Attraction {
 
     private int guideImage;
-    private String guideText;
-    private String guideDescription;
+    private int guideText;
+    private int guideDescription;
 
-    public Attraction(int guideImage, String guideText, String guideDescription) {
+    public Attraction(int guideImage, int guideText, int guideDescription) {
         this.guideImage = guideImage;
         this.guideText = guideText;
         this.guideDescription = guideDescription;
@@ -17,9 +17,9 @@ public class Attraction {
         return guideImage;
     }
 
-    public String getGuideText() {
+    public int getGuideText() {
         return guideText;
     }
 
-    public String getGuideDescription() {return guideDescription; }
+    public int getGuideDescription() {return guideDescription; }
 }

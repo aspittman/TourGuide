@@ -26,11 +26,11 @@ public class HistoricalFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Salt Lake Temple", "Historical landmark of the LDS church"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "JB's restaurant", "Buffet that's right around the corner"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Gateway", "Mall center with theaters and museums"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "LDS tabernacle", "Where the chore for the LDS church sings"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Temple grounds", "Lots of museums and connections to various locations"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, R.string.historical_one, R.string.historical_six));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, R.string.historical_two, R.string.historical_seven));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, R.string.historical_three, R.string.historical_eight));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, R.string.historical_four, R.string.historical_nine));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, R.string.historical_five, R.string.historical_ten));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 
