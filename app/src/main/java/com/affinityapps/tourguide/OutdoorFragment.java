@@ -30,11 +30,11 @@ public class OutdoorFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Light Years Away", "Oliver"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Okay", "Shiba San"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Summertime Sadness", "Lana Del Ray"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Years", "Alesso feat. Matthew Koma"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Voicemail", "Green Velvet & Patrick Topping"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Golden Room", "Art gallery with exhibits"));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Marmalade District", "located in same area with food and other historic sites"));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "House tours", "Tours for students and tourists"));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "House of Representatives", "Get to see the room where Utah's representatives work"));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Trail toward the Capitol", "Located right next to downtown"));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

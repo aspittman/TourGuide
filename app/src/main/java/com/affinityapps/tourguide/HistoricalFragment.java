@@ -26,11 +26,11 @@ public class HistoricalFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Light Years Away", "Oliver"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Okay", "Shiba San"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Summertime Sadness", "Lana Del Ray"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Years", "Alesso feat. Matthew Koma"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Voicemail", "Green Velvet & Patrick Topping"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Salt Lake Temple", "Historical landmark of the LDS church"));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, "JB's restaurant", "Buffet that's right around the corner"));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Gateway", "Mall center with theaters and museums"));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "LDS tabernacle", "Where the chore for the LDS church sings"));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Temple grounds", "Lots of museums and connections to various locations"));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

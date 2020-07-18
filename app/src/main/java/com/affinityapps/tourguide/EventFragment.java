@@ -26,11 +26,11 @@ public class EventFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Light Years Away", "Oliver"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Okay", "Shiba San"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Summertime Sadness", "Lana Del Ray"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Years", "Alesso feat. Matthew Koma"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Voicemail", "Green Velvet & Patrick Topping"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Airboat Rides", "Airboat rides through surrounding lakes"));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Science Cafe", "Sit eat and talk science"));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Archeology Exhibits", "Display of history and fossils around the museum"));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Scientific Animation", "Animations showing the history of the displays"));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Trailside Bioblitz", "Hiking trails all around the museum"));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

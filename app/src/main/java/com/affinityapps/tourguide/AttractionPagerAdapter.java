@@ -29,15 +29,15 @@ public class AttractionPagerAdapter extends FragmentStateAdapter {
 
         switch (position) {
             case 0:
-                fragment = new HistoricalFragment();
+                fragment = new DowntownFragment();
                 args = new Bundle();
-                args.putInt(HISTORICAL, position + 1);
+                args.putInt(DOWNTOWN, position + 1);
                 fragment.setArguments(args);
                 return fragment;
             case 1:
-                fragment = new OutdoorFragment();
+                fragment = new HistoricalFragment();
                 args = new Bundle();
-                args.putInt(OUTDOOR, position + 1);
+                args.putInt(HISTORICAL, position + 1);
                 fragment.setArguments(args);
                 return fragment;
             case 2:
@@ -53,9 +53,9 @@ public class AttractionPagerAdapter extends FragmentStateAdapter {
                 fragment.setArguments(args);
                 return fragment;
             default:
-                fragment = new DowntownFragment();
+                fragment = new OutdoorFragment();
                 args = new Bundle();
-                args.putInt(DOWNTOWN, position + 1);
+                args.putInt(OUTDOOR, position + 1);
                 fragment.setArguments(args);
                 return fragment;
         }

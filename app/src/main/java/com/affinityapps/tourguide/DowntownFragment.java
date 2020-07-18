@@ -26,11 +26,11 @@ public class DowntownFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Light Years Away", "Oliver"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Okay", "Shiba San"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Summertime Sadness", "Lana Del Ray"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Years", "Alesso feat. Matthew Koma"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Voicemail", "Green Velvet & Patrick Topping"));
+        arrayList.add(new Attraction(R.drawable.citycreek_fountain, "City Creek Fountain", "Displays water and fire shows in shopping center"));
+        arrayList.add(new Attraction(R.drawable.mall_entrance, "Mall Entrance", "Plenty of food vendors around the mall"));
+        arrayList.add(new Attraction(R.drawable.citycreek_shopping, "Mall Stores", "Plenty of stores in the mall to choose from"));
+        arrayList.add(new Attraction(R.drawable.citycreek_second_floor, "Mall Overpass", "Mall contains bridge connection one end to the other"));
+        arrayList.add(new Attraction(R.drawable.citycreek_tram, "City Creek Tram", "Tram under the bridge gives access to both entrances"));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 

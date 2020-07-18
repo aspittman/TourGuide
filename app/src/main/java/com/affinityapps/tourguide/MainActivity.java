@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager2 viewPager;
-    private String[] tabNames = {"Temple Square", "City Creek Center", "Natural History Museum of Utah", "University of Utah", "State Capitol"};
+    private String[] tabNames = {"City Creek Center", "Temple Square", "Natural History Museum of Utah", "University of Utah", "State Capitol"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

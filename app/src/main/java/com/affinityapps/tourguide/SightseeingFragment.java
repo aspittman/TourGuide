@@ -26,11 +26,11 @@ public class SightseeingFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = (ListView) view.findViewById(R.id.list);
         ArrayList<Attraction> arrayList = new ArrayList<>();
-        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Light Years Away", "Oliver"));
-        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Okay", "Shiba San"));
-        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Summertime Sadness", "Lana Del Ray"));
-        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Years", "Alesso feat. Matthew Koma"));
-        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Voicemail", "Green Velvet & Patrick Topping"));
+        arrayList.add(new Attraction(R.drawable.ic_event_icon, "Campus grounds", "Fun place to longboard and sightsee"));
+        arrayList.add(new Attraction(R.drawable.ic_food_icon, "Huntsman Stadium", "Where they have college sports games"));
+        arrayList.add(new Attraction(R.drawable.ic_shows_icon, "Library", "Campus library where they have 3D printing lab"));
+        arrayList.add(new Attraction(R.drawable.ic_sights_icon, "Skiing", "Ski resorts around campus for students and tourists"));
+        arrayList.add(new Attraction(R.drawable.ic_tram_icon, "Redline tram", "Tram which takes you all around campus"));
 
         AttractionListAdapter adapter = new AttractionListAdapter(getActivity(), arrayList);
 
